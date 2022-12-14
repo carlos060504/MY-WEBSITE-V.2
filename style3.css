@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+
+}
+header{
+    background:linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(2.jpg);
+    height: 175vh;
+    background-size:cover;
+    background-position: center;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+    font-size: 20px;
+    margin-right: 70px;
+
+}
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration:none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color:seagreen;
+    color:darkgray;
+}
+ul li.active a{
+    background-color: darkred;
+    color:darkgray;
+}
+.second{
+    width: 1000px;
+     height: 100px;
+     margin-top:auto;
+     font-family:'Franklin Gothic Medium';
+     font-size: 75px;
+     padding-top: 100px;
+     margin-left: 100px;
+     color: yellow;
+     text-align: justify;
+     font-family: monospace;
+}
+ul li.mission a{
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    text-decoration: solid;
+   color:white;
+}
+ul li.vision a{
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    text-decoration: solid;
+   color:white;
+}
+.third{
+    width: 1000px;
+     height: 50px;
+     font-family:'Franklin Gothic Medium';
+     font-size: 75px;
+     padding-top: 25px;
+     margin-left: 100px;
+     color:navajowhite;
+     text-align: justify;
+     font-family: monospace;
+}
+.third h2{
+    width: 1000px;
+     height: 50px;
+     margin-top: 100px;
+     color:whitesmoke;
+     font-family:fantasy;
+     font-size: 40px;
+     padding-top: 100px;
+     margin-left: 100px;
+     text-decoration: underline darkred;
+     letter-spacing: 5px;
+    
+}
+
+ul li.T a{
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    text-decoration: solid;
+   color:white;
+   margin-left: 150px;
+
+}
+
+ul li.A a{
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    text-decoration: solid;
+   color:white;
+   margin-left: 150px;
+}
+ul li.P a{
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    text-decoration: solid;
+   color:white;
+   margin-left: 150px;
+}
